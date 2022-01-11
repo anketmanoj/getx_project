@@ -3,8 +3,8 @@ import 'package:getx_project/presentation/misc/colors.dart';
 
 BoxDecoration bgGradients = BoxDecoration(
   gradient: LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment.bottomRight,
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
       colors: [
         myColors[pale_primary_bg]!,
         Colors.white,
